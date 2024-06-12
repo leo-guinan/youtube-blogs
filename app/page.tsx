@@ -2,7 +2,6 @@
 import {useCallback, useEffect, useRef, useState} from "react";
 import MarkdownBlock from "@/components/markdown-block";
 import useSWRSubscription, {SWRSubscriptionOptions} from "swr/subscription";
-import {w3cwebsocket as W3CWebSocket} from "websocket";
 
 
 export default function Home() {
